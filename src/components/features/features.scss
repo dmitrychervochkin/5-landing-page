@@ -1,0 +1,136 @@
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin: 100px 0;
+    gap: 80px;
+
+    &__header {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+
+        & h4 {
+            font-size: 20px;
+            font-weight: 400;
+        }
+        & h2 {
+            font-size: 40px;
+            font-weight: 300;
+        }
+        & p {
+            font-size: 15px;
+        }
+    }
+    &__main {
+        display: flex;
+        gap: 40px;
+
+        &--item {
+            width: 250px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            & .main-item-header {
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                font-size: 20px;
+
+                & div {
+                    color: white;
+                    border: none;
+                    background-color: #ed2b7c;
+                    border-radius: 50%;
+                    padding: 8px;
+                }
+                & p {
+                    font-weight: 400;
+                }
+            }
+            & p {
+                line-height: 25px;
+                font-weight: 300;
+            }
+        }
+    }
+
+    &__lightning {
+        color: white;
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+
+        & h2 {
+            font-size: 40px;
+            font-weight: 300;
+        }
+    }
+
+    &__img {
+        display: block;
+        width: 100%;
+        max-width: 1000px;
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
+    &__more-info {
+        line-height: 40px;
+        text-align: center;
+
+        & h2 {
+            font-size: 40px;
+            font-weight: 300;
+        }
+    }
+    &__footer {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        & p {
+            margin: 10px 0;
+        }
+
+        & input {
+            font-size: 15px;
+            padding: 13px 30px;
+            border-radius: 40px;
+            border: none;
+            outline: none;
+            transition: 0.2s background-color;
+
+            &:hover {
+                background-color: #38a3f1;
+                cursor: pointer;
+            }
+            &:focus {
+                background-color: white;
+                cursor: text;
+            }
+            &::placeholder {
+                color: black;
+            }
+        }
+    }
+}
+
+@media (max-width: 1100px) {
+    .features {
+        &__main {
+            flex-direction: column;
+            gap: 60px;
+        }
+    }
+}

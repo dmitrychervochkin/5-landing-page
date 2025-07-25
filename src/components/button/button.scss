@@ -1,0 +1,58 @@
+.button {
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    transition: 0.2s background-color;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.button-subscribe {
+    background-color: white;
+    width: 250px;
+
+    &:hover {
+        background-color: #38a3f1;
+        color: white;
+    }
+}
+
+.button-default {
+    color: #38a3f1;
+    background-color: white;
+
+    &:hover {
+        background-color: #38a3f1;
+        color: white;
+    }
+}
+.button-submit {
+    background-color: #ed2b7c;
+    color: white;
+
+    &:hover {
+        background-color: #38a3f1;
+        color: white;
+    }
+}
+.button-reverse {
+    background-color: #38a3f1;
+    color: white;
+
+    &:hover {
+        background-color: white;
+        color: #38a3f1;
+    }
+}
+
+.button-big {
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+.button-small {
+    padding: 13px 30px;
+    font-size: 15px;
+}
