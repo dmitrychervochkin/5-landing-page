@@ -34,5 +34,5 @@ npm install
 npm run dev
 ```
 
-![Превью](./preview.png) 
-![Превью](./preview-mobile.png) 
+![Превью](./preview.mov) 
+![Превью](./preview-mobile.mov) 
